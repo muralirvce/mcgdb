@@ -1,0 +1,2 @@
+This program allows one to write a C program to access global structures and do various read only activities on the core file very fast.
+User has to write the program where the entry point is do\_gdb(int argc, char 
