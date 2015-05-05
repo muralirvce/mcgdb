@@ -1,0 +1,5 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+This program allows one to write a C program to access global structures and do various read only activities on the core file very fast. User has to write the program where the entry point is do_gdb(int argc, char argv) which is called from the api which has the main() function. All the API is exported into cgdb.h. User has to include those API's and access core data structures. User to use the tool have to link to bfd,liberty,opcodes,kvm.
